@@ -2,7 +2,7 @@ import {FETCH_USER} from '../actions/types'
 
 
 const initialState = {
-    user: {}
+    user: {profileIconId: process.env.PUBLIC_URL + '/question_mark.png'}
 }
 
 export default function(state = initialState, action){
